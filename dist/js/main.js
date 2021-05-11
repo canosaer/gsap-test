@@ -1,0 +1,2 @@
+let logoElement=document.querySelector("img.logo"),h1Element=document.querySelector("h1"),specs={ram:0};gsap.to(specs,{duration:10,ram:32,onUpdate:function(){h1Element.textContent=specs.ram}});
+//# sourceMappingURL=main.js.map
